@@ -196,3 +196,77 @@ header #arrow {
 .composition:hover .composition_photo:not(:hover) {
     transform: scale(0.95);
 }
+
+
+/* Section Tarifs */
+
+#tarifs {
+    border-top: 1px dashed rgb(209, 174, 59);
+}
+
+#tarifs h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    background: #f7f7f7;
+    background-image: linear-gradient(to right, black, rgb(255,239,105));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+    padding-top: 4rem;
+}
+
+#container-flex {
+    background: #f7f7f7;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8rem; 
+}
+
+.flex-cards {
+    width: 30rem;
+    height: 45rem;
+    margin: 2rem;
+    transition: all 0.2s ease-in;
+    
+}
+
+.flex-cards:nth-child(1) {
+    border: 1px dashed #373737;
+}
+
+.flex-cards:nth-child(1) {
+    border: none;
+}
+
+.flex-cards:nth-child(1) {
+    border: 1px dashed #373737;
+}
+
+.head {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    color: #373737;
+    background: #f0Ead6;
+
+}
+
+.head p {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 10rem;
+    font-family: "Abril Fatface";
+}
+
+.contenu {
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+    background: #f0Ead6;
+    height: 6rem;
+    line-height: 6rem;
+}
