@@ -270,3 +270,35 @@ header #arrow {
     height: 6rem;
     line-height: 6rem;
 }
+.prix {
+    margin: 0;
+    height: 11rem;
+    background: #f0Ead6;
+}
+
+.prix p {
+    margin: 0 auto;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 11rem;
+    font-family: 'Abril Fatface';
+}
+
+
+.flex-cards:nth-child(2) .head {
+    background: #373737;
+    color: #FFD700;
+}
+.flex-vards:nth-child(2) .contenu {
+    background: #373737;
+    color: #FFD700;
+}
+.flex-cards:nth-child(2) .prix {
+    background: #373737;
+    color: #FFD700;
+}
+
+
+.flex-cards:hover {
+    transform: scale(1.05);
+}
